@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ceraround;
+}
+
+@font-face {
+    font-family: 'ceraround';
+    src: url('font.otf') format(truetype);
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto 150px;
+    padding: 25px;
+}
+
+li, a{
+    text-decoration: none;
+    color: black;
+    transition: all ease 1s;
+}
+
+li, i{
+    display: inline-block;
+    margin: auto 14px;
+}
+
+.fa-user{
+    margin-left: auto;
+    cursor: pointer;
+    transition : all 0.3s ease 0s;
+}
+
+.fa-user:hover{
+    color: #1c7ed6;
+}
+
+.fa-flag{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+ul li a{
+    transition : all 0.3s ease 0s;
+}
+
+ul li a:hover{
+    color: #1c7ed6;
+}
+
+/* Main */
+
+.container{
+    background-color: black;
+}
